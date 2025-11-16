@@ -1,12 +1,13 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:my_package/my_package.dart';
+import 'package:busttech_utils/busttech_utils.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  group('MyPackage', () {
+    test('sayHello returns correct greeting', () {
+      final myPackage = MyPackage();
+      final result = myPackage.sayHello('World');
+      expect(result, 'Hello, World!');
+    });
   });
 }
