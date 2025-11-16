@@ -1,4 +1,5 @@
-name: my_package
+name: busttech_utils
+
 description: "A simple and lightweight Flutter package offering reusable utilities for Flutter applications."
 
 version: 0.0.1
