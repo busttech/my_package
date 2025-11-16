@@ -1,5 +1,6 @@
 name: my_package
-description: "A new Flutter package project."
+description: "A simple and lightweight Flutter package offering reusable utilities for Flutter applications."
+
 version: 0.0.1
 
 homepage: https://github.com/busttech/my_package
