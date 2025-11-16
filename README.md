@@ -1,24 +1,19 @@
-# my_package
+# busttech_photo_overlay
 
-A simple Flutter package that provides helpful utilities for Flutter apps.
+A lightweight Flutter overlay toolkit to add logos, stickers, frames and text on images. Focused on simple API, multi-layer overlays, and high-resolution export.
 
-This package is created and maintained by **busttech**.
+## Features
+- Add logos, stickers (PNG), frames, and text
+- Drag / scale / rotate overlay items
+- Multi-layer ordering (bring to front / send back)
+- Export final composition to PNG/JPEG
+- Lightweight and customizable UI
 
----
-
-## ✨ Features
-
-- Easy to use  
-- Lightweight  
-- Fully open-source  
-- Ready for production apps
-
----
-
-## 📦 Installation
-
-Add this to your package’s `pubspec.yaml`:
+## Installation
+Add to `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  my_package: ^0.0.1
+  busttech_photo_overlay:
+    git:
+      url: https://github.com/busttech/busttech_photo_overlay.git
